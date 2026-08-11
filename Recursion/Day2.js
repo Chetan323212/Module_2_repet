@@ -164,17 +164,18 @@
 
 //First Occurence Index
 
-let arr = [5, 6, 4 ,6 ,1 ,2]
+// let arr = [5, 6, 4 ,6 ,1 ,2]
 
-let target = 2
+// let target = 2
 
-function findfirstIndex(arr,i,target){
-    if(i >= arr.length){
-        return
-    }
-    return target == arr[i] ? arr.indexOf(arr[i]) : findfirstIndex(arr, i+1,target)
-}
+// function findfirstIndex(arr,i,target){
+//     if(i >= arr.length){
+//         return
+//     }
+//     return target == arr[i] ? i : findfirstIndex(arr, i+1,target)
+// }
 
-console.log(findfirstIndex(arr,0,target));
+// console.log(findfirstIndex(arr,0,target));
+
 
 

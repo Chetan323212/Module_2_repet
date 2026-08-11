@@ -1,0 +1,8 @@
+
+
+function divide(arr){
+
+    
+
+
+}
